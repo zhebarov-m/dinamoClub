@@ -6,6 +6,11 @@
   font-family: Timer;
   src: url(../fonts/CursedTimer/CursedTimerUlil-Aznm.ttf);
 }
+body {
+  background-image: url("/img/oboi-nebo-svet.jpg");
+  background-position: top;
+}
+
 .table {
   display: flex;
   height: 100px;
@@ -18,11 +23,11 @@
 }
 
 .home {
-  background-color: #eefdeb;
+  background-color: rgba(238, 253, 235, 0.9450980392);
 }
 
 .visitor {
-  background-color: #fcefef;
+  background-color: rgba(252, 239, 239, 0.937254902);
 }
 
 .table__date {

@@ -77,6 +77,14 @@ html,
 body {
     height: 100%;
     font-size: 15px;
+
+    body {
+        background-image: url('/img/oboi-nebo-svet.jpg');
+        background-position: top;
+     }
+}
+.content {
+    background-color: #648dff2c;
 }
 //-----mySwiper-----//
 .swiper {

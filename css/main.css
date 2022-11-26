@@ -90,6 +90,15 @@ body {
   height: 100%;
   font-size: 15px;
 }
+html body,
+body body {
+  background-image: url("/img/oboi-nebo-svet.jpg");
+  background-position: top;
+}
+
+.content {
+  background-color: rgba(100, 141, 255, 0.1725490196);
+}
 
 .swiper {
   width: 100%;

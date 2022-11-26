@@ -7,6 +7,14 @@
    font-weight:  700;
 }
 
+body {
+   background-image: url('/img/oboi-nebo-svet.jpg');
+   background-position: top;
+}
+.content {
+   background-color: #648dff2c;
+   // background-color: #000000a9; - черное зетемнение
+}
 
 //...Карточки игроков...//
 .cards {
@@ -186,12 +194,12 @@
    margin-left: 80px;
    font-size: 60px;
    font-family: 'FuturaDemic';
-   margin-top:30px;
-   color: #0054a5;
+   color: #ffffff;
+   padding-top: 30px;
 
    p {
       font-size: 40px;
-      color: #292929;
+      color: #74c1ee;
       margin: 50px 0px -8px 0px;
       line-height: 0px;
    }

@@ -79,6 +79,15 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: 700;
 }
+body {
+  background-image: url("/img/oboi-nebo-svet.jpg");
+  background-position: top;
+}
+
+.content {
+  background-color: rgba(100, 141, 255, 0.1725490196);
+}
+
 .cards {
   display: grid;
   justify-items: center;
@@ -240,12 +249,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 80px;
   font-size: 60px;
   font-family: "FuturaDemic";
-  margin-top: 30px;
-  color: #0054a5;
+  color: #ffffff;
+  padding-top: 30px;
 }
 .players p {
   font-size: 40px;
-  color: #292929;
+  color: #74c1ee;
   margin: 50px 0px -8px 0px;
   line-height: 0px;
 }
